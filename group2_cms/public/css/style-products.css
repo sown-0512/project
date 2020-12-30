@@ -1,0 +1,120 @@
+/* ### all product content ### */
+.all_product {
+  margin: 0;
+  padding: 0;
+  min-height: 435px;
+  background-color: #fff;
+}
+
+ .woocommerce-ordering{
+  float: right;
+  display: none;
+}
+
+ a {
+  text-decoration: none !important;
+}
+ ul.products img {
+  width: auto;
+  max-height: 185px;
+  padding: 20px 0;
+  -webkit-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+  -moz-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+  -o-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+  transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+  /* ease-out */
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+  -moz-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+  -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+  /* ease-out */
+}
+
+ ul.products {
+  background: none;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+}
+
+ ul.products li {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
+ ul.products li:hover {
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+ ul.products li .woocommerce-loop-product__title{
+  color: #000;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+ ul.products li .price {
+  display: flow-root;
+  margin-bottom: 10px;
+}
+
+ ul.products li .price bdi{
+  color: #000;
+}
+
+ ul.products li .price del bdi{
+  color: gray;
+}
+
+ ul.products li .price ins{
+  text-decoration: none;
+}
+
+ ul.products li .onsale {
+  color: #fff;
+  border: 1px solid #db545a;
+  background-color: #db545a;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+ ul.products li .add_to_cart_button {
+  border: 1px solid #FEC144;
+  background: #FEC144;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+ ul.products li .add_to_cart_button:hover {
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+}
+
+/* ###paginative */
+.woocommerce-pagination{
+  text-align: center;
+}
+
+ul.page-numbers{
+  display: inline-flex;
+}
+
+ul.page-numbers li{
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+ul.page-numbers li:hover{
+  background: #FEC144;
+}
+
+/*** shopping-cart ***/
+.shopping-cart{
+  min-height: 450px;
+}
+
